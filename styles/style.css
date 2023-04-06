@@ -1,0 +1,119 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  outline: red solid 1px;
+ /* выше установили ограничения для секции */
+}
+
+.logo {
+  background-image: url("../images/logo_place_header.svg");
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+position: absolute;
+margin: 30px 0 0 64px;
+z-index: 2;
+outline: red solid 1px;
+}
+
+.header__title {
+  width: 730px;
+  margin: 0 0 0 64px;
+  align-self: center;
+  color: #000;
+  line-height: 96px;
+  font-weight: 600;
+  font-size: 102px;
+  z-index: 2;
+  outline: red solid 1px;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  color: #000;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 18px;
+  z-index: 2;
+  outline: red solid 1px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+  position: absolute;
+  outline: red solid 1px;
+}
+
+.header__main-illustration  {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  outline: red solid 1px;
+}
+
+.content {
+  
+}
+
+.description {
+  margin: 100px 0 0;
+  outline: red solid 1px;
+}
+
+.digits {
+  margin: 100px 0 100px;
+  outline: red solid 1px;
+}
+
+.feynman {
+  outline: red solid 1px;
+}
+
+.kaufman {
+  margin: 90px 0 90px;
+  outline: red solid 1px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.footer {
+  margin: 60px 0 40px;
+  outline: red solid 1px;
+}
